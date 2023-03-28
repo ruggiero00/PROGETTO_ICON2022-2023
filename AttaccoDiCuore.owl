@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2023//"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2023//"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#dati_del_paziente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#dati_del_paziente">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Angina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Angina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Colesterolo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Colesterolo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dolore_Toracixo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dolore_Toracixo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Elettrocardiogramma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Elettrocardiogramma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Età -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Età">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Frequenza_cardiaca_massima -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Frequenza_cardiaca_massima">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Glicemia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Glicemia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#PICCO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#PICCO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Pressione_Arteriosa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Pressione_Arteriosa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Sesso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Sesso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dati_Paziente"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_PICCO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_PICCO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#PICCO"/>
+        <untitled-ontology-16:dati_del_paziente>PICCO , (nella abbreviazione del significato in inglese Peripherally Introduced
+Continuous Cardiac Output Monitoring) vale a dire: Monitoraggio cardiaco continuo ad
+inserimento periferico, è un sistema di controllo alquanto nuovo ma allo stesso tempo
+ampiamente studiato per il monitoraggio di pazienti in Reparto di Cura Intensiva.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_angina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_angina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Angina"/>
+        <untitled-ontology-16:dati_del_paziente>L&apos;angina è un dolore transitorio al torace o sensazione di pressione che si manifesta quando il muscolo cardiaco non riceve una sufficiente quantità di ossigeno.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_colesterolo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_colesterolo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Colesterolo"/>
+        <untitled-ontology-16:dati_del_paziente>Il colesterolo è una sostanza grassa necessaria al corretto funzionamento dell&apos;organismo: partecipa infatti alla sintesi di alcuni ormoni e della vitamina D ed è un costituente delle membrane delle cellule.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_dolore_toracico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_dolore_toracico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Dolore_Toracixo"/>
+        <untitled-ontology-16:dati_del_paziente>Il dolore toracico è un disturbo molto comune. Può essere acuto o sordo, anche se alcuni soggetti con malattie toraciche riferiscono sensazioni di fastidio, oppressione, pressione, gas, bruciore o dolori.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_elettrocardiogramma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_elettrocardiogramma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Elettrocardiogramma"/>
+        <untitled-ontology-16:dati_del_paziente>L&apos;elettrocardiogramma, o ECG, è un test diagnostico, di tipo strumentale, che registra e riporta graficamente il ritmo e l&apos;attività elettrica del cuore. Lo strumento usato per l&apos;elettrocardiogramma è chiamato elettrocardiografo.
+La frequenza cardiaca massima (FC max) è il numero più alto di battiti al minuto che il tuo cuore riesce a compiere sotto sforzo.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_età -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_età">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Età"/>
+        <untitled-ontology-16:dati_del_paziente>Età del paziente visitato</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_frequenza_cardiaca_massima -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_frequenza_cardiaca_massima">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Frequenza_cardiaca_massima"/>
+        <untitled-ontology-16:dati_del_paziente>La frequenza cardiaca massima (FC max) è il numero più alto di battiti al minuto che il tuo cuore riesce a compiere sotto sforzo.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_glicemia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_glicemia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Glicemia"/>
+        <untitled-ontology-16:dati_del_paziente>Con il termine glicemia s&apos;intende la concentrazione di glucosio nel sangue. Il glucosio è fondamentale per l&apos;organismo poiché è il nutriente essenziale per tutte le cellule che lo prelevano direttamente dal sangue.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_pressione_arteriosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_pressione_arteriosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Pressione_Arteriosa"/>
+        <untitled-ontology-16:dati_del_paziente>La Pressione arteriosa è la pressione che il Sangue esercita sulle pareti delle arterie del sistema cardiocircolatorio. Essa dipende sia dalla quantità di sangue pompato dal cuore, sia dalla resistenza opposta al flusso sanguigno.</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_sesso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#istanza_sesso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/2/untitled-ontology-16#Sesso"/>
+        <untitled-ontology-16:dati_del_paziente>Sesso del paziente visitato</untitled-ontology-16:dati_del_paziente>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
