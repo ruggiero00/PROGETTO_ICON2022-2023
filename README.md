@@ -2,8 +2,9 @@
 Repository per il progetto dell'esame Ingegneria della Conoscenza inerente all'anno accademico 2022-2023.
 
 Realizzato da:
--Dibenedetto Ruggiero 724561    r.dibenedetto21@studenti.uniba.it 
--Digioia Marco        724562   m.digioia31@studenti.uniba.it 
+Dibenedetto Ruggiero 724561    r.dibenedetto21@studenti.uniba.it
+
+Digioia Marco        724562   m.digioia31@studenti.uniba.it 
 
 # Esecuzione 
 ## Fase iniziale 
