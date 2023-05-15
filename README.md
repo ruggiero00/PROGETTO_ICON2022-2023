@@ -11,7 +11,7 @@ Digioia Marco        724562   m.digioia31@studenti.uniba.it
 
 **Clonare il progetto**
 
-<code> gitclone https://github.com/marcodigioia2001/PROGETTO_ICON2022-2023.git </code>
+<code> gitclone https://github.com/ruggiero00/PROGETTO_ICON2022-2023.git </code>
 
 Installare le dipendenze:
 
